@@ -1,0 +1,274 @@
+{
+	"React: import":{
+		"scope": "javascript,jsx",
+		"prefix": "ric",
+		"body": "import React, { Component } from 'react'",
+		"description": "React import"
+	},
+	"React: import link":{
+		"prefix": "ril",
+		"body": "import { Link } from 'react-router'",
+		"description": "React import link"
+	},
+	"React: constructor":{
+		"prefix": "rcs",
+		"body": ["constructor(props){",
+		"\tsuper(props)",
+		"\t${1}",
+			"}"],
+		"description": "React constructor"
+	},
+	"React: react-router":{
+		"prefix": "rir",
+		"body": "import { ${1} } from 'react-router'",
+		"description": "React react-router"
+	},
+	"React: import from":{
+		"prefix": "rif",
+		"body": "import ${1} from ''",
+		"description": "React import from"
+	},
+	"React: this.setState":{
+		"prefix": "rss",
+		"body": ["this.setState({\t",
+		"\t${1}",
+			"})"],
+		"description": "React this.setState"
+	},
+	"React: export": {
+		"prefix": "red",
+		"body": "export default ${1}",
+		"description": "React export"
+	},
+	"React: this.state":{
+		"prefix": "rts",
+		"body": "this.state${1}",
+		"description": "React state"
+	},
+	"React: Link":{
+		"prefix": "rrl",
+		"body": "<Link to={${1}}>\n\n${2}</Link>",
+		"description": "React Link"
+	},
+	"React: this.props":{
+		"prefix": "rtp",
+		"body": "this.props.${1}",
+		"description": "React this.props"
+	},
+	"React: BrowserRouter":{
+		"prefix": "rbr",
+		"body": "import { BrowserRouter as Router, Route } from 'react-router-dom'",
+		"description": "React BrowserRouter"
+	},
+	"React: create class":{
+		"prefix": "rcc",
+		"body": ["class ${1} extends Component {",
+		"\trender(){",
+			"\t\treturn(",
+			"\t\t\t<div></div>",
+			"\t\t)",
+			"\t}",
+			"}",
+		"export default ${1}"],
+		"description": "React create class"
+	},
+	"React: import PropTypes":{
+		"prefix": "rip",
+		"body": "import PropTypes from 'prop-types'",
+		"description": "React import PropTypes"
+	},
+	"React: react-dom":{
+		"prefix": "rid",
+		"body": "import ReactDOM from 'react-dom'",
+		"description": "React react-dom"
+	},
+	"React: componentDidMount":{
+		"prefix": "rcdm",
+		"body": ["componentDidMount() {",
+			"\t${1}",
+			"}"],
+		"description": "React componentDidMount"
+	},
+	"React: componentDidUpdate":{
+		"prefix": "rcdu",
+		"body": ["componentDidUpdate(prevProps, prevState) {",
+		"\t${1}",
+		"}"],
+		"description": "React: componentDidUpdate"
+	},
+	"React: componentWillMount":{
+		"prefix": "rcwm",
+		"body": ["componentWillMount() {",
+		"\t${1}",
+				"}"],
+		"description": "React componentWillMount"
+	},
+	"React: componentWillReceiveProps":{
+		"prefix": "rcwr",
+		"body": ["componentWillReceiveProps(nextProps) {",
+		"\t${1}",
+				"}"],
+		"description": "React componentWillReceiveProps"
+	},
+	"React: componentWillUnmount":{
+		"prefix": "rcwu",
+		"body": ["componentWillUnmount() {",
+		"\t${1}",
+				"}"],
+		"description": "React componentWillUnmount"
+	},
+	"React: componentWillUpdate":{
+		"prefix": "rcwud",
+		"body": ["componentWillUpdate(nextProps, nextState) {",
+		"\t${1}",
+				"}"],
+		"description": "React componentWillUpdate"
+	},
+	"React: getDefaultProps":{
+		"prefix": "rgdp",
+		"body": ["getDefaultProps() {",
+		"\treturn {",
+			"\t\t${1}",
+			"\t}",
+					"}"],
+		"description": "React getDefaultProps"
+	},
+	"React: getInitialState":{
+		"prefix": "rgis",
+		"body": ["getInitialState() {",
+		"\treturn {",
+			"\t\t${1}",
+			"\t}",
+					"}"],
+		"description": "React getInitialState"
+	},
+	"React: Class Base":{
+		"prefix": "rcb",
+		"body": ["import React, { Component } from 'react'",
+		"class ${1} extends Component {",
+		"\trender() {",
+			"\t\treturn(",
+			"\t\t\t<div></div>",
+			"\t\t)",
+			"\t}",
+			"}",
+					"export default ${1}"],
+		"description": "React Class Base"
+	},
+	"React: shouldComponentUpdate":{
+		"prefix": "rscu",
+		"body": ["shouldComponentUpdate(nextProps, nextState) {",
+		"\t${1}",
+				"}"],
+		"description": "React shouldComponentUpdate"
+	},
+	"Router: Route":{
+		"prefix": "rrt",
+		"body": "<Route path='${1}' component={} />",
+		"description": "Router Route"
+	},
+	"Router: Redirect":{
+		"prefix": "rrd",
+			"body": "<Redirect from='${1}' to='' />",
+			"description": "Router Redirect"
+		},
+	"React: html-tag":{
+		"prefix": "tag",
+		"body": "<${1} />",
+		"description": "React html-tag"
+	},
+	"React: import renderToString":{
+		"prefix": "rrts",
+		"body": "import { renderToString } from 'react-dom/sever'",
+		"description": "React import renderToString"
+	},
+	"React: import ServerRouter":{
+		"prefix": "risr",
+		"body": "import { StaticRouter } from 'react-router'",
+		"description": "React import ServerRouter"
+	},
+	"React: import render":{
+		"prefix": "ridr",
+		"body": "import { render } from 'react-dom'",
+		"description": "React import render"
+	},
+	"React: import react":{
+		"prefix": "ri",
+		"body": "import React from 'react'",
+		"description": "React: import react"
+	},
+	"React: components arrow":{
+		"prefix": "rca",
+		"body": ["import React from 'react'",
+		"const ${1} = (props) => {",
+			"return(",
+			"\t<div></div>",
+			"\t)",
+			"}",
+					"eport default ${1}"],
+		"description": "React: components arrow"
+	},
+	"React: props.children":{
+		"prefix": "rpc",
+		"body": "{props.children}",
+		"description": "React: props.children"
+	},
+	"React: tag-html":{
+		"prefix": "tagt",
+		"body": "<${1}>\n\n</${1}>",
+		"description": "React: tag-html-two"
+	},
+	"React: createPortal":{
+		"prefix": "rcp",
+		"body": "import { createPortal } from 'react-dom'",
+		"description": "React: createPortal"
+	},
+	"React: life Cicle":{
+		"prefix": "rcdc",
+		"body": ["componentDidCatch(error, info)\t{",
+		"\t${1}",
+				"}"],
+		"description": "React: life Cicle"
+	},
+	"React: tag StaticRouter":{
+		"prefix": "ritsr",
+		"body": ["<StaticRouter lacation={} context={conext}>",
+			"\t${1}",
+			"</StaticRouter>"],
+		"description": "React tag StaticRouter"
+	},
+	"React: react function":{
+		"prefix": "rcf",
+		"body": ["import React from 'react'",
+		"function ${1}(props) {",
+			"\treturn(",
+			"\t\t<div></div>",
+			"\t)",
+		"}",
+		"export default ${1}"],
+		"description": "React react function"
+	},
+	"React: class pureComponent":{
+		"prefix": "rpcb",
+		"body": ["import React, { PureComponent } from 'react'",
+		"class ${1} extends PureComponent {",
+		"\trender() {",
+			"\t\treturn(",
+			"\t\t\t<div></div>",
+			"\t\t)",
+			"\t}",
+			"}",
+			"export default ${1}"],
+		"description": "React class pureComponent"
+	},
+	"For_Loop": {
+		"prefix": "for",
+		"scope": "javascript,typescript",
+		"body": [
+			"for (const ${2:element} of ${1:array}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "For Loop"
+	}
+}

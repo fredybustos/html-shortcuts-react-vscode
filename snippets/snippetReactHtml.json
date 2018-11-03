@@ -1,0 +1,352 @@
+{
+	"html section": {
+		"prefix": "rsect",
+		"body": ["<section>${1}</section>"],
+		"description": "html section"
+	},
+
+	"html a": {
+		"prefix": "ra",
+		"body": ["<a href=''>${1}</a>"],
+		"description": "html a"
+	},
+
+	"html:a className": {
+		"prefix": "racn",
+		"body": ["<a href='' className='${1}'></a>"],
+		"description": "html a className"
+	},
+
+	"html:span": {
+		"prefix": "rspan",
+		"body": ["<span>${1}</span>"],
+		"description": "html span"
+	},
+
+	"html:p": {
+		"prefix": "p",
+		"body": ["<p>${1}</p>"],
+		"description": "html p"
+	},
+
+	"html:strong": {
+		"prefix": "rstro",
+		"body": ["<strong>${1}</strong>"],
+		"description": "html strong"
+	},
+
+	"html:iframe": {
+		"prefix": "rifra",
+		"body": ["<iframe>${1}</iframe>"],
+		"description": "html iframe"
+	},
+
+	"html:fieldset": {
+		"prefix": "rfield",
+		"body": ["<fieldset>",
+			"\t<legend>${1}</legend>",
+			"</fieldset>"],
+		"description": "html fieldset"
+	},	
+
+	"html:main": {
+		"prefix": "rmain",
+		"body": ["<main>${1}</main>"],
+		"description": "html main"
+	},
+
+	"html:main className": {
+		"prefix": "rmacn",
+		"body": ["<main className='${1}'></main>"],
+		"description": "html main className"
+	},
+
+	"html:span className": {
+		"prefix": "rspcn",
+		"body": ["<span className='${1}'></span>"],
+		"description": "html span classMame"
+	},
+
+	"tml:section className": {
+		"prefix": "rsecn",
+		"body": ["<section className='${1}'></section>"],
+		"description": "html section classsName"
+	}	,
+
+	"html:div": {
+		"prefix": "rdiv",
+		"body": ["<div>${1}</div>"],
+		"description": "html div"
+	},
+
+	"html:div className": {
+		"prefix": "rdcn",
+		"body": ["<div className='${1}'></div>"],
+		"description": "html div className"
+	},
+
+	"html:article": {
+		"prefix": "rarticle",
+		"body": ["<article>${1}</article>"],
+		"description": "html article"
+	},
+		
+	"html:article className": {
+		"prefix": "rarcn",
+		"body": ["<article className='${1}'></article>"],
+		"description": "html article className"
+	},
+
+	"html:img": {
+		"prefix": "rimg",
+		"body": ["<img src='${1}' alt='' />"],
+		"description": "html img"
+	},
+
+	"html:image className": {
+		"prefix": "rimgcn",
+		"body": ["<img className='${1}' src='${1a}' alt='' />"],
+		"description": "html img className"
+	},
+
+	"html:h1": { 
+		"prefix": "rh1",
+		"body": ["<h1>${1}</h1>"],
+		"description": "html h1"
+	}, 
+
+	"html:h1 className": {
+		"prefix": "rh1cn",
+		"body": ["<h1 className='${1}'></h1>"],
+		"description": "html h1 className"
+	},
+
+	"html:h2": {
+		"prefix": "rh2",
+		"body": ["<h2>${1}</h2>"],
+		"description": "html h2"
+	},
+
+	"html:h2 className": {
+		"prefix": "rh2cn",
+		"body": ["<h2 className='${1}'></h2>"],
+		"description": "html h2 className"
+	},
+
+	"html:h3": {
+		"prefix": "rh3",
+		"body": ["<h3>${1}</h3>"],
+		"description": "html h3"
+	},
+
+	"html:h3 className": {
+		"prefix": "rh3cn",
+		"body": ["<h3 className='${1}'></h3>"]
+	},
+
+	"html:h4": {
+		"prefix": "rh4",
+		"body": ["<h4>${1}</h4>"],
+		"descripcion": "html h4"
+	},
+
+	"html:h4 className": {
+		"prefix": "rh4cn",
+		"body": ["<h4 className='${1}'></h4>"],
+		"description": "html h4 className"
+	},
+
+	"html:figure": {
+		"prefix": "rfigure",
+		"body": ["<figure>${1}</figure>"],
+		"description": "html figure"
+	},
+
+	"html:figcaption": {
+		"prefix": "rfigcaption",
+		"body": ["<figcaption>${1}</figcaption>"],
+		"description": "html figcation"
+	},
+
+	"html:figure className": {
+		"prefix": "rfigcn",
+		"body": ["<figure className='${1}'></figure>"],
+		"description": "html figure className"
+	},
+
+	"html:header": {
+		"prefix": "rheader",
+		"body": ["<header>${1}</header>"],
+		"description": "html header"
+	},
+
+	"html:header className": {
+		"prefix": "rhecn",
+		"body": ["<header className='${1}'></header>"],
+		"description": "html header className"
+	},
+
+	"html:nav": {
+		"prefix": "rnav",
+		"body": ["<nav>${1}</nav>"],
+		"description": "html nav"
+	},
+
+	"html:nav className": {
+		"prefix": "rnavcn",
+		"body": ["<nav className='${1}'></nav>"],
+		"description": "html nav className"
+	},
+
+	"html:ul": {
+		"prefix": "rul",
+		"body": ["<ul>${1}</ul>"],
+		"description": "html ul"
+	},
+
+	"html:ul className": {
+		"prefix": "rulcn",
+		"body": ["<ul className='${1}'></ul>"],
+		"description": "html ul className"
+	},
+
+	"html:li": {
+		"prefix": "rli",
+		"body": ["<li>${1}</li>"],
+		"description": "html li"
+	},
+	
+	"html:li className": {
+		"prefix": "rlicn",
+		"body": ["<li className='${1}'></li>"],
+		"description": "html li className"
+	},
+
+	"html:uli": {
+		"prefix": "ruli",
+		"body": ["<ul>",
+			"\t<li>${1}</li>",
+			"</ul>"],
+		"description": "html ul li "
+	},
+
+	"html:ol": {
+		"prefix": "rol",
+		"body": ["<ol>${1}</ol>"],
+		"description": "html ol"
+	},
+
+	"html:ol className": {
+		"prefix": "rolcn",
+		"body": ["<ol className='${1}'></ol>"],
+		"description": "html ol className"
+	},
+
+	"html:footer": {
+		"prefix": "rfooter",
+		"body": ["<footer>${1}</footer>"],
+		"description": "html footer"
+	},
+
+	"html:footer className": {
+		"prefix": "rfoocn",
+		"body": ["<footer className='${1}'></footer>"],
+		"description": "html footer className"
+	},
+
+	"html:form": {
+		"prefix": "rform",
+		"body": ["<form>${1}</form>"],
+		"description": "html form"
+	},
+
+	"html:form className": {
+		"prefix": "rforcn",
+		"body": ["<form className='${1}'></form>"],
+		"description": "html form className"
+	},
+
+	"html:label": {
+		"prefix": "rlabel",
+		"body": ["<label>${1}</label>"],
+		"description": "html label"
+	},
+
+	"html:label className": {
+		"prefix": "rlabcn",
+		"body": ["<label className='${1}'></label>"],
+		"description": "html label className"
+	},
+
+	"html:input": {
+		"prefix": "rinput",
+		"body": ["<input type='' name='' value=''${1} />"],
+		"description": "html input"
+	},
+
+	"html:input className": {
+		"prefix": "rinpcn",
+		"body": ["<input className='${1}'' type='' name='' value='' />"],
+		"description": "html input className"
+	},
+
+	"html:textarea": {
+		"prefix": "rtextarea",
+		"body": ["<textarea name='' cols='' rows=''>${1}</textarea>"],
+		"description": "html textarea"
+	},
+
+	"html:textarea className": {
+		"prefix": "rtextcn",
+		"body": ["<textarea className='${1}' name='' cols='' rows=''></textarea>"],
+		"description": "html textarea className"
+	},
+
+	"html:button": {
+		"prefix": "rbutton",
+		"body": ["<button type='button'>${1}</button>"],
+		"description": "html button"
+	},
+
+	"html:button className": {
+		"prefix": "rbutcn",
+		"body": ["<button className='${1}'></button>"],
+		"description": "html button className"
+	},
+
+	"html:meta": {
+		"prefix": "rmeta",
+		"body": ["<meta charset='utf-8'/>"],
+		"description": "html meta"
+	},
+
+	"html:link": {
+		"prefix": "rlink",
+		"body": ["<link rel='stylesheet' href='${1}'/>"],
+		"description": "html link"
+	},
+
+	"html:viewport": {
+		"prefix": "rviewport",
+		"body": ["<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'/>"],
+		"description": "html viewport"
+	},
+
+	"html:tag": {
+		"prefix": "rtag",
+		"body": ["<${name} />"],
+		"description": "html tag </>"
+	},
+
+	"html:menu": {
+		"prefix": "rmenu",
+		"body": ["<nav>",
+			"\t<ul>",
+			"\t\t<li>",
+			"\t\t\t<a href=''>${1}</a>",
+			"\t\t</li>",
+			"\t</ul>",
+			"</nav>"],
+		"description": "html menu ul li"
+	}
+}

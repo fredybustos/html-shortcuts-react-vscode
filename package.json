@@ -1,0 +1,47 @@
+{
+    "name": "react",
+    "displayName": "react",
+    "description": "snippets of code for react ",
+    "version": "0.0.1",
+    "publisher": "fredy",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fredybustos/html-shortcuts-react-vscode"
+    },
+    "keywords": [
+        "html",
+        "shortcuts",
+        "react",
+        "snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippetReact.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippetReact.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippetReact.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippetReact.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippetReactHtml.json"
+            }
+        ]
+    }
+}
