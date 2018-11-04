@@ -2,7 +2,7 @@
     "name": "react",
     "displayName": "html-shortcuts-react",
     "description": "snippets of code for react ",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "reactPlugin",
     "engines": {
         "vscode": "^1.28.0"
