@@ -27,8 +27,16 @@
                 "path": "./snippets/snippetReact.json"
             },
             {
+                "language": "javascript",
+                "path": "./snippets/snippetReactHtml.json"
+            },
+            {
                 "language": "javascriptreact",
                 "path": "./snippets/snippetReact.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippetReactHtml.json"
             },
             {
                 "language": "typescript",
@@ -37,10 +45,6 @@
             {
                 "language": "typescriptreact",
                 "path": "./snippets/snippetReact.json"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/snippetReactHtml.json"
             }
         ]
     }

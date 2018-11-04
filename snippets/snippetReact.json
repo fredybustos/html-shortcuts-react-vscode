@@ -261,14 +261,61 @@
 			"export default ${1}"],
 		"description": "React class pureComponent"
 	},
-	"For_Loop": {
-		"prefix": "for",
-		"scope": "javascript,typescript",
+	"React: hocComponent": {
+		"prefix": "rhoc",
 		"body": [
-			"for (const ${2:element} of ${1:array}) {",
-			"\t$0",
-			"}"
+		  "import React from 'react'",
+		  "import PropTypes from 'prop-types'",
+		  "",
+		  "export default (WrappedComponent) => {",
+		  "  const hocComponent = ({ ...props }) => <WrappedComponent {...props} />",
+		  "",
+		  "  hocComponent.propTypes = {",
+		  "  }",
+		  "",
+		  "  return hocComponent",
+		  "}",
+		  ""
 		],
-		"description": "For Loop"
+		"description": "React class hoc"
+	},
+	"React: importDestructing": {
+		"prefix": "rimd",
+		"body": "import { $2 } from '${1:module}'$0",
+		"description": "React import destructuring"
+	},
+	"React: stateDestructing": {
+		"prefix": "rdes",
+		"body": "const { $1 } = this.state",
+		"description": "create const desctructuring with state"
+	  },
+	"React: propsDestructing": {
+		"prefix": "rdep",
+		"body": "const { $1 } = this.props",
+		"description": "create const desctructuring with props"
+	  },
+	"React: reactClassCompoment": {
+		"prefix": "rccc",
+		"body": [
+		  "import React, { Component } from 'react'",
+		  "",
+		  "export default class ${1} extends Component {",
+		  "  render() {",
+		  "    return (",
+		  "      <div>",
+		  "        $0",
+		  "      </div>",
+		  "    )",
+		  "  }",
+		  "}",
+		  ""
+		],
+		"description": "Create react component with export"
+	},
+	"console": {
+		"prefix": "log",
+		"scope": "javascript,typescript",
+		"body": "console.log('>>>>>>>>' ${1})",
+		"description": "Console"
 	}
 }
