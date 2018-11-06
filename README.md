@@ -3,6 +3,8 @@
 this is the best vscode snippets. A shortcuts html from react developer.
 you can write and autocomplete with **tab** html tags, because sometimes it does not work emmet correctly.
 
+* if you want to collaborate with the plugin, all snippets begin with letter `r`
+
 # Tags for html
 tags for use with **tab**.
 
