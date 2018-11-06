@@ -312,10 +312,72 @@
 		],
 		"description": "Create react component with export"
 	},
+	"React: getDerivedStateFromProps": {
+		"prefix": "rdsfp",
+		"body": ["getDerivedStateFromProps(nextProps, prevState) {", "  ${1}", "}"],
+		"description": "React life Cicle"
+	},
 	"console": {
 		"prefix": "log",
 		"scope": "javascript,typescript",
-		"body": "console.log('>>>>>>>>' ${1})",
+		"body": "console.log('>>>>>>>>>>>', ${1})",
 		"description": "Console"
+	},
+	"Proptypes: PropTpyes": {
+		"prefix": "pst",
+		"body": ["$1.PropTypes = {",
+		"",
+		"}"],
+		"decription": "Proptypes"
+	},
+	"Proptypes: staticPropTpyes": {
+		"prefix": "psp",
+		"body": ["static propTypes = {", "$0", "}"],
+		"decription": "Static proptypes"
+	},
+	"Proptypes: propTypeNumberRequired": {
+		"prefix": "pnr",
+		"body": "PropTypes.number.isRequired,",
+		"description": "Proptypes number required"
+	  },
+	"Proptypes: stringPropTpyes": {
+		"prefix": "pst",
+		"body": ["PropTypes.string.isRequired"],
+		"decription": "Proptypes string"
+	},
+	"Proptypes: anyPropTpyes": {
+		"prefix": "panr",
+		"body": ["PropTypes.any.isRequired"],
+		"decription": "Proptypes any required"
+	},
+	"Proptypes: funcPropTpyes": {
+		"prefix": "pfr",
+		"body": ["PropTypes.func.isRequired"],
+		"decription": "Proptypes function required"
+	},
+	"Proptypes: boolPropTpyes": {
+		"prefix": "pbr",
+		"body": ["PropTypes.bool.isRequired"],
+		"decription": "Proptypes bool required"
+	},
+	"Proptypes: propTypeShape": {
+		"prefix": "ps",
+		"body": ["PropTypes.shape({", "  $0", "})"],
+		"description": "Proptypes shape"
+	},
+	"Proptypes: propTypeObjectRequired": {
+		"prefix": "por",
+		"body": "PropTypes.object.isRequired",
+		"description": "Proptypes object required"
+	},
+	"Proptypes: propTypeArrayRequired": {
+		"prefix": "par",
+		"body": "PropTypes.array.isRequired",
+		"description": "Proptypes array required"
+	},
+	"Proptypes: propTypeShapeRequired": {
+		"prefix": "psr",
+		"body": ["PropTypes.shape({", "  $1", "}).isRequired"],
+		"description": "Proptypes shape required"
 	}
 }
